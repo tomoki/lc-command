@@ -1,0 +1,17 @@
+lc command.
+lc is tiny shell script that automaticay ls when cd.
+
+Install 
+Put file "lc" into $Home/bin (or directory what will be loaded automaticay)
+and execute
+
+$ alias lc=". lc"
+Because "cd" in shellscript has no effects in parent process.
+You should put "alias lc=". lc" into the file what will be loaded automaticay.
+
+Usage,
+
+$ lc directory
+
+You can't use ls options.
+But you can define it in file "lc".
